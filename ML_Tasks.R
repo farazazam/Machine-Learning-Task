@@ -135,7 +135,7 @@ x <-wrapperModelData$fitted()
 
 
 
-#Building your first Ridge, Lasso, and elastic net models
+#Building Ridge, Lasso, and elastic net models
 
 ridge <- makeLearner("regr.glmnet", alpha = 0, id = "ridge")
 
